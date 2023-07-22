@@ -5,7 +5,7 @@ class Animal {
     this._species=species;
   }
   get makeSound(){
-    console.log(this._species)
+    return this._species
   }
 
 }
