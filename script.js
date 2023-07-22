@@ -4,8 +4,12 @@ class Animal {
   constructor(species){
     this._species=species;
   }
-  get makeSound(){
-    return this._species
+  get species() {
+    return this._species;
+  }
+
+  makeSound() {
+    console.log("Animal sound"); // We'll implement this method in the subclasses
   }
 
 }
